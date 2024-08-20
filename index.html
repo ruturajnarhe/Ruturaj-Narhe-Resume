@@ -1,213 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ruturaj Narhe - Resume</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        .resume {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        header {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2em;
-            color: #0073e6;
-        }
-        header p {
-            margin: 5px 0;
-        }
-        section {
-            margin-bottom: 20px;
-        }
-        h2 {
-            border-bottom: 2px solid #0073e6;
-            padding-bottom: 5px;
-            color: #0073e6;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        ul li {
-            margin: 5px 0;
-        }
-        .job {
-            margin-bottom: 10px;
-        }
-        .job h3 {
-            margin: 5px 0;
-            font-size: 1.2em;
-            color: #0073e6;
-        }
-        .education .education-item {
-            margin-bottom: 20px;
-        }
-        .education .education-item h3 {
-            margin: 0;
-            font-size: 1.2em;
-            color: #0073e6;
-        }
-        .education .education-item p {
-            margin: 5px 0;
-        }
-        .declaration ul {
-            list-style-type: disc;
-            margin: 0;
-            padding: 0;
-        }
-        .declaration ul li {
-            margin: 5px 0;
-        }
-        .projects .project-item {
-            margin-bottom: 20px;
-        }
-        .projects .project-item h3 {
-            margin: 0;
-            font-size: 1.2em;
-            color: #0073e6;
-        }
-        .projects .project-item p {
-            margin: 5px 0;
-        }
-        .languages ul, .interests ul {
-            list-style-type: disc;
-            margin: 0;
-            padding: 0;
-        }
-        .languages ul li, .interests ul li {
-            margin: 5px 0;
-        }
-        .details-container {
-            display: flex;
-            justify-content: space-between;
-        }
-        .personal-details ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-            flex: 1;
-        }
-        .personal-details ul li {
-            margin: 10px 0;
-            display: flex;
-            align-items: center;
-        }
-        .personal-details ul li i {
-            margin-right: 10px;
-            color: #0073e6;
-        }
-        .personal-details ul li a {
-            color: #0073e6;
-            text-decoration: none;
-        }
-        .personal-details ul li a:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="resume">
-        <header>
-            <h1>Ruturaj Narhe</h1>
-        </header>
-        <section class="personal-details">
-            <h2>Personal Details</h2>
-            <div class="details-container">
-                <ul>
-                    <li><i class="fas fa-phone"></i> +91 8600870673</li>
-                    <li><i class="fas fa-envelope"></i> ruturajnarhe@gmail.com</li>
-                    <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/ruturaj-narhe-095684285/" target="_blank">linkedin.com/in/ruturajnarhe</a></li>
-                </ul>
-                <ul>
-                    <li><i class="fas fa-birthday-cake"></i> October 03, 2004</li>
-                    <li><i class="fas fa-map-marker-alt"></i> Pune, Maharashtra, India</li>
-                    <li><i class="fab fa-github"></i> <a href="https://github.com/ruturajnarhe" target="_blank">github.com/ruturajnarhe</a></li>
-                </ul>
-            </div>
-        </section>
-        <section>
-            <h2>Summary</h2>
-            <p>I am pursuing my garduation degree BSc. (CS) at Dr. D. Y. Patil Science And Computer Science College, Pimpri, Pune. I am seeking an opportunity to enhance my skill and position where my knowledge can be utilized in the field of IT industry.</p>
-        </section>
-        <section>
-            <h2>Skills</h2>
-            <ul>
-                <li>Programming Languages: Java, JavaScript, C</li>
-                <li>Frameworks: Spring Boot, React</li>
-                <li>Web Technologies: HTML, CSS, JavaScript</li>
-                <li>Database Management: MySQL</li>
-                <li>Version Control: Git</li>
-                <li>Development Tools: Maven, Gradle</li>
-            </ul>
-         </section>
-        <section class="projects">
-            <h2>Projects</h2>
-            <div class="project-item">
-                <h3>Issuer Modernization Project [Client- TSYS GlobalPayments]</h3>
-                <p>Role: Developer and Tester</p>
-                <p>Description: An application designed for a bank to streamline and automate the credit card and loan application processes for both consumer and commercial users. The project focuses on enhancing efficiency by employing automated background checks and applying predefined strategies to determine the approval or rejection of applications.</p>
-                <p>Technologies: Node.js, Cypress, Jenkins, AWS</p>
-            </div>
-            <div class="project-item">
-                <h3>Merchant Portal Reporting [Client- TSYS GlobalPayments]</h3>
-                <p>Role: SDET</p>
-                <p>Contributed to development and testing efforts of Merchant Portal, a reporting application empowering Client's merchants to make informed decisions. Conducted comprehensive testing on various reporting options, ensuring accuracy and reliability in transaction details, revenue data, and customer information. Played a key role in validating the system's ability to provide merchants with actionable insights for business growth and development.</p>
-                <p>Technologies: Node.js, React, Java Spring Boot, Selenium Cucumber-BDD, Jenkins, GCP Cloud</p>
-            </div>
-        </section>
-        <section class="education">
-            <h2>Education</h2>
-            <div class="education-item">
-                <h3>B.Sc (Computer Science)</h3>
-                <p>Dr. D. Y. Patil SCS College Akurdi | 2022 - 2025 <br>Percentages(%) : 7.72 (Current CGPA)</p>
-            </div>
-            <div class="education-item">
-                <h3>HSC</h3>
-                <p>Shri Mulika Devi Jr. College Nighoj | 2022 <br>Percentages(%) : 72.83%</p>
-            </div>
-            <div class="education-item">
-                <h3>SSC</h3>
-                <p>Shri Mulika Devi Vidya Mandir Nighoj | 2020 <br>Percentages(%) : 77.80%</p>
-            </div>
-        </section>
-        <section class="languages">
-            <h2>Languages</h2>
-            <ul>
-                <li>English (Fluent)</li>
-                <li>Hindi (Fluent)</li>
-                <li>Marathi (Native)</li>
-            </ul>
-        </section>
-        <section class="interests">
-            <h2>Interests</h2>
-            <ul>
-                <li>Traveling</li>
-                <li>Trekking</li>
-                <li>Swimming</li>
-            </ul>
-        </section>
-        <section class="declaration">
-            <h2>Declaration</h2>
-            <ul>
-                <li>I’m Ruturaj Narhe, hereby declare that the above information is correct up to my knowledge and belief.</li>
-            </ul>
-        </section>
+      <header>
+        <h1>Ruturaj Narhe</h1>
+      </header>
+      <section class="personal-details">
+        <h2>Personal Details</h2>
+        <div class="details-container">
+          <ul>
+            <li><i class="fas fa-phone"></i> +91 8600870673</li>
+            <li><i class="fas fa-envelope"></i> ruturajnarhe@gmail.com</li>
+            <li>
+              <i class="fab fa-linkedin"></i>
+              <a
+                href="https://www.linkedin.com/in/ruturaj-narhe-095684285/"
+                target="_blank"
+                >linkedin.com/in/ruturajnarhe</a
+              >
+            </li>
+          </ul>
+          <ul>
+            <li><i class="fas fa-birthday-cake"></i> October 03, 2004</li>
+            <li>
+              <i class="fas fa-map-marker-alt"></i> Pune, Maharashtra, India
+            </li>
+            <li>
+              <i class="fab fa-github"></i>
+              <a href="https://github.com/ruturajnarhe" target="_blank"
+                >github.com/ruturajnarhe</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2>Summary</h2>
+        <p>
+          I am pursuing my garduation degree BSc. (CS) at Dr. D. Y. Patil
+          Science And Computer Science College, Pimpri, Pune. I am seeking an
+          opportunity to enhance my skill and position where my knowledge can be
+          utilized in the field of IT industry.
+        </p>
+      </section>
+      <section>
+        <h2>Skills</h2>
+        <ul>
+          <li>Programming Languages: Java, JavaScript, C</li>
+          <li>Frameworks: Spring Boot, React</li>
+          <li>Web Technologies: HTML, CSS, JavaScript</li>
+          <li>Database Management: MySQL</li>
+          <li>Version Control: Git</li>
+          <li>Development Tools: Maven, Gradle</li>
+        </ul>
+      </section>
+      <section class="projects">
+        <h2>Projects</h2>
+        <div class="project-item">
+          <h3>Issuer Modernization Project [Client- TSYS GlobalPayments]</h3>
+          <p>Role: Developer and Tester</p>
+          <p>
+            Description: An application designed for a bank to streamline and
+            automate the credit card and loan application processes for both
+            consumer and commercial users. The project focuses on enhancing
+            efficiency by employing automated background checks and applying
+            predefined strategies to determine the approval or rejection of
+            applications.
+          </p>
+          <p>Technologies: Node.js, Cypress, Jenkins, AWS</p>
+        </div>
+        <div class="project-item">
+          <h3>Merchant Portal Reporting [Client- TSYS GlobalPayments]</h3>
+          <p>Role: SDET</p>
+          <p>
+            Contributed to development and testing efforts of Merchant Portal, a
+            reporting application empowering Client's merchants to make informed
+            decisions. Conducted comprehensive testing on various reporting
+            options, ensuring accuracy and reliability in transaction details,
+            revenue data, and customer information. Played a key role in
+            validating the system's ability to provide merchants with actionable
+            insights for business growth and development.
+          </p>
+          <p>
+            Technologies: Node.js, React, Java Spring Boot, Selenium
+            Cucumber-BDD, Jenkins, GCP Cloud
+          </p>
+        </div>
+      </section>
+      <section class="education">
+        <h2>Education</h2>
+        <div class="education-item">
+          <h3>B.Sc (Computer Science)</h3>
+          <p>
+            Dr. D. Y. Patil SCS College Akurdi | 2022 - 2025
+            <br />Percentages(%) : 7.72 (Current CGPA)
+          </p>
+        </div>
+        <div class="education-item">
+          <h3>HSC</h3>
+          <p>
+            Shri Mulika Devi Jr. College Nighoj | 2022 <br />Percentages(%) :
+            72.83%
+          </p>
+        </div>
+        <div class="education-item">
+          <h3>SSC</h3>
+          <p>
+            Shri Mulika Devi Vidya Mandir Nighoj | 2020 <br />Percentages(%) :
+            77.80%
+          </p>
+        </div>
+      </section>
+      <section class="languages">
+        <h2>Languages</h2>
+        <ul>
+          <li>English (Fluent)</li>
+          <li>Hindi (Fluent)</li>
+          <li>Marathi (Native)</li>
+        </ul>
+      </section>
+      <section class="interests">
+        <h2>Interests</h2>
+        <ul>
+          <li>Traveling</li>
+          <li>Trekking</li>
+          <li>Swimming</li>
+        </ul>
+      </section>
+      <section class="declaration">
+        <h2>Declaration</h2>
+        <ul>
+          <li>
+            I’m Ruturaj Narhe, hereby declare that the above information is
+            correct up to my knowledge and belief.
+          </li>
+        </ul>
+      </section>
     </div>
-</body>
+  </body>
 </html>
